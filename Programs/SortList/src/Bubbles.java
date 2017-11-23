@@ -15,7 +15,7 @@ public class Bubbles {
             System.out.println("Podaj kolejną cyfrę: ");
             tablicaN[i] = scanner.nextInt();
         }
-        
+
 //        tablicaN = bubbleSort(tablicaN);
         tablicaN = bubbleSort(tablicaN);
         for(int i = 0; i < tablicaN.length; i++) {
