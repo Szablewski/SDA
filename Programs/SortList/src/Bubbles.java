@@ -22,7 +22,6 @@ public class Bubbles {
             System.out.println(tablicaN[i]);
         }
 
-
     }
 
     //    public static int[] BubbleSort(int[] arr) {

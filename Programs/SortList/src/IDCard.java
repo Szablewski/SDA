@@ -30,7 +30,6 @@ public class IDCard {
                 summary += sumID[i];
             }
         }
-
         System.out.println(Math.floorMod(summary, 10));
     }
 }
