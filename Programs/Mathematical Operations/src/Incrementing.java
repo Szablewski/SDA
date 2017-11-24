@@ -12,7 +12,6 @@ public class Incrementing {
             int liczba = sc.nextInt();
             liczby[i] = liczba;
         }
-
         System.out.println("Liczby po inkrementacji : " );
         for (int i = 0; i < liczby.length; i++) {
             int increm = liczby[i] += 1;

@@ -8,7 +8,6 @@ public class Numbers {
         Scanner sc = new Scanner(System.in);
         int liczba = sc.nextInt();
         int[] tablica = new int[liczba];
-
         if(liczba<=10){
             for(int i=0;i<liczba;i++){
                 System.out.println("Podaj liczbe " + (i+1));

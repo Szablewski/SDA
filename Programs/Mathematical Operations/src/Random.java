@@ -10,7 +10,6 @@ public class Random {
         for (int i = 0; i < liczba.length; i++) {
            liczba[i] = sc.nextInt(100);
         }
-
         System.out.println("Podaj liczbe: ");
         int losowaLiczba = sc.nextInt();
         boolean szukana = false;
@@ -21,7 +20,6 @@ public class Random {
                 break;
             }
         }
-
         if (szukana){
             System.out.println("Podana liczba znajduje się w tablicy");
         }else {

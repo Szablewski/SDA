@@ -9,7 +9,6 @@ public class Sum {
             wynik+=element;
             System.out.println(element);
         }
-
         System.out.println("Suma liczb: " + wynik);
     }
 }

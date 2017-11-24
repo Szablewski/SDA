@@ -10,7 +10,6 @@ public class BMI {
 
         System.out.println("Podaj wage w kilogramach");
         float  kg = sc.nextFloat();
-
         float BMI = kg/(metry*metry);
 
         if (BMI <= 18.5){
@@ -20,10 +19,5 @@ public class BMI {
         }else {
             System.out.println("Masz nadwagę!!" + "Twoje BMI wynosi: " + BMI);
         }
-
-
-
-
-
     }
 }
